@@ -1,24 +1,9 @@
-# html
+# 目录结构
+ ## bulid 配置文件目录
+  1. webpack.base.config.js  webpack基础配置
+  2. webpack.dev.config.js   本地开发配置
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 依赖包
+# 开发日志
+ 1. 单肩webpack多页面打包vue 文件还没配置完成

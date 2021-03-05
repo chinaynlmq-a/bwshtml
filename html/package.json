@@ -1,0 +1,33 @@
+{
+  "name": "bws",
+  "version": "1.0.0",
+  "description": "多页面开发配置",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinaynlmq-a/bwshtml.git"
+  },
+  "keywords": [
+    "vue",
+    "百网思"
+  ],
+  "author": "1060690324@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinaynlmq-a/bwshtml/issues"
+  },
+  "homepage": "https://github.com/chinaynlmq-a/bwshtml#readme",
+  "dependencies": {
+    "vue": "^3.0.7"
+  },
+  "devDependencies": {
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}
