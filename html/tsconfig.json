@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    // 这样就可以对 `this` 上的数据属性进行更严格的推断`
+    "strict": true,
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "allowJs":true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*":["src/*"]
+    },
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+  },
+  
+  "exclude": [
+    ".history",
+    "node_modules",
+    "src/**/*.",
+  ],
+  "include": [
+    "src/**/*",
+  ]
+}
