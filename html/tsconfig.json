@@ -1,17 +1,27 @@
 {
   "compilerOptions": {
-    "target": "ES2015",
-    "module": "commonjs",
-    // 这样就可以对 `this` 上的数据属性进行更严格的推断`
-    "strict": true,
-    "jsx": "preserve",
-    "allowSyntheticDefaultImports": true,
-    "allowJs":true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
+    // "target": "ES5",
+    // "module": "CommonJS",
+    // // 这样就可以对 `this` 上的数据属性进行更严格的推断`
+    // "strict": true,
+    // "jsx": "preserve",
+    // "rootDir": ".",
+    // "allowSyntheticDefaultImports": true,
+    // "allowJs":true,
+    // "checkJs":true,
+    // "diagnostics":true,
+    // "moduleResolution": "node",
+    // "esModuleInterop": true,
+    // "sourceMap": true,
+    // "noImplicitAny": false,
+    // "baseUrl": ".",
     "sourceMap": true,
-    "noImplicitAny": false,
+    "module": "CommonJS",
+    "target": "ES5",
     "baseUrl": ".",
+   // "rootDir": ".",
+    "allowJs": true,
+    "experimentalDecorators": true,
     "paths": {
       "@/*":["src/*"]
     },
@@ -21,9 +31,7 @@
   },
   
   "exclude": [
-    ".history",
-    "node_modules",
-    "src/**/*.",
+    "node_modules", "dist"
   ],
   "include": [
     "src/**/*",
